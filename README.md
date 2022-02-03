@@ -4,14 +4,18 @@ A basic workspace for quick HTML, JS and CSS prototyping. It automatically does 
 It also initialises Git for you, and tracks `./scratch` while ignoring everything else.
 
 ## Install
+There is an install script:
+```sh
+curl https://raw.githubusercontent.com/xbc5/proto-mc-type-face/main/scripts/install.sh | bash
+```
+
+Or you can manually install it:
 ```sh
 npm i -g degit
 cd my_dir # must be empty
 degit xbc5/proto-mc-type-face && rm .gitignore
 pnpm install 
 ```
-
-Because some programs respect the `.gitignore` (e.g. Telescope), we use Degit to remove any git files (including `.gitignore`), which ignores `./scratch`, and thus allows these programs to scan it.
 
 ## Usage
 ```sh
