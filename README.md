@@ -1,6 +1,8 @@
 ## Intro
 A basic workspace for quick HTML, JS and CSS prototyping. It automatically does a browser refresh on any changes to files under `./scratch`.
 
+It also initialises Git for you, and tracks `./scratch` while ignoring everything else.
+
 ## Install
 ```sh
 npm i -g degit

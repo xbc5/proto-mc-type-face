@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "clean": "node scripts/init.js",
-    "init": "node scripts/init.js",
+    "init": "node scripts/init.js && chmod +x scripts/*.sh && scripts/transform-gitignore.sh && scripts/init-git.sh",
     "start": "browser-sync start --config ./bs-config.js",
-    "update": "degit github:xbc5/proto-mc-type-face --force && pnpm update; rm .gitignore"
+    "update": "degit github:xbc5/proto-mc-type-face --force && pnpm update; scripts/transform-gitignore.sh"
   },
   "keywords": [
     "js",
