@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "node scripts/init.js",
     "init": "node scripts/init.js",
-    "update": "degit github:xbc5/proto-mc-type-face --force && rm .gitignore"
+    "update": "degit github:xbc5/proto-mc-type-face --force && pnpm update; rm .gitignore"
   },
   "keywords": [
     "js",
