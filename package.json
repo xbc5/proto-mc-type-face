@@ -1,0 +1,25 @@
+{
+  "name": "web-proto",
+  "version": "1.0.0",
+  "description": "A scratchpad for prototyping HTML, JS, and CSS.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "node scripts/init.js"
+  },
+  "keywords": [
+    "js",
+    "web",
+    "css",
+    "html",
+    "practice",
+    "prototyping",
+    "refresh"
+  ],
+  "author": "xbc5",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "@fsouza/prettierd": "^0.18.1",
+    "fs-extra": "^10.0.0"
+  }
+}
