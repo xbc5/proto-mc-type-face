@@ -4,7 +4,8 @@
   "description": "A scratchpad for prototyping HTML, JS, and CSS.",
   "main": "index.js",
   "scripts": {
-    "clean": "node scripts/init.js"
+    "clean": "node scripts/init.js",
+    "init": "node scripts/init.js"
   },
   "keywords": [
     "js",
