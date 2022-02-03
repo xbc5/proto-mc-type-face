@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "node scripts/init.js",
     "init": "node scripts/init.js",
+    "start": "browser-sync start --config ./bs-config.js",
     "update": "degit github:xbc5/proto-mc-type-face --force && pnpm update; rm .gitignore"
   },
   "keywords": [
